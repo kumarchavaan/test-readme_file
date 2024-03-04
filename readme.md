@@ -1,12 +1,16 @@
-# Iframe Gadget Message Handler
+# MLJ Gadget Message Handler
 
 ## Description
 
-This script is an event listener designed to handle messages received from an iframe gadget. It implements various actions based on the message data to interact with the window or the document.
+This script is an event listener designed to handle messages received from an iframe MLJ gadget. It implements various actions based on the message data to interact with the window or the document.
 
 ## Usage
 
-Ensure that this script is included in the HTML document where you expect to receive messages from the iframe gadget. The event listener is set up to trigger when messages are received. Actions are performed based on the content of the messages.
+1. **Integration with Existing Theme JS**: If you already have an existing theme JavaScript file, simply copy this script and append it to below your existing JavaScript code. The script will automatically take effect within your theme.
+
+2. **Overriding Existing `window.onmessage` Functionality**: Note that if your theme JavaScript also utilizes the `window.onmessage` function, integrating this script may override that functionality. Ensure compatibility or adjust your existing code accordingly.
+
+3. **Code Review and Integration**: Consider scheduling a code review meeting before adding this script to theme.
 
 ## Functionality
 
