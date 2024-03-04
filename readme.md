@@ -28,6 +28,6 @@ This script is an event listener designed to handle messages received from an if
 
 ## Note
 
-If the provided script is not integrated, functionalities described above will behave incorrectly.
+- If the provided script is not integrated, functionalities described above will behave incorrectly.
 
-This script assumes that the `onmessage` event is triggered only from the specified origin 'https://mljltitool.mylearnerjourney.com'. Ensure that messages received from other origins are handled appropriately or ignored to prevent unintended behavior.
+- This script assumes that the `onmessage` event is triggered only from the specified origin 'https://mljltitool.mylearnerjourney.com'. Ensure that messages received from other origins are handled appropriately or ignored to prevent unintended behavior.
