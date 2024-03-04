@@ -10,7 +10,7 @@ This script is an event listener designed to handle messages received from an if
 
 2. **Overriding Existing `window.onmessage` Functionality**: Note that if your theme JavaScript also utilizes the `window.onmessage` function, integrating this script may override that functionality. Ensure compatibility or adjust your existing code accordingly.
 
-3. **Code Review and Integration**: Consider scheduling a code review meeting before adding this script to theme.
+3. **Code Review and Integration**: Consider scheduling a code review meeting before adding this script to theme, if there are any concerns. 
 
 ## Functionality
 
@@ -27,5 +27,7 @@ This script is an event listener designed to handle messages received from an if
 - **Reloading the Main Window or Focusing the Iframe:** It can trigger the reloading of the main window or focus on the iframe element based on the received message.
 
 ## Note
+
+If the provided script is not integrated, functionalities described above will behave incorrectly.
 
 This script assumes that the `onmessage` event is triggered only from the specified origin 'https://mljltitool.mylearnerjourney.com'. Ensure that messages received from other origins are handled appropriately or ignored to prevent unintended behavior.
