@@ -24,4 +24,4 @@ Ensure that this script is included in the HTML document where you expect to rec
 
 ## Note
 
-Ensure that the origin of the message is from the specified domain 'https://mljltitool.mylearnerjourney.com' to execute the associated actions.
+This script assumes that the `onmessage` event is triggered only from the specified origin 'https://mljltitool.mylearnerjourney.com'. Ensure that messages received from other origins are handled appropriately or ignored to prevent unintended behavior.
